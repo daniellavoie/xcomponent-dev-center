@@ -3,13 +3,20 @@ import { NgModule } from '@angular/core';
 
 import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
 
+import { AppRoutingModule } from './app-routing.module'
 import { AppComponent } from './app.component';
+
+import { MenuComponent } from './menu/menu.component';
+import { QuickstartComponent } from './quickstart/quickstart.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    MenuComponent,
+    QuickstartComponent
   ],
   imports: [
+    AppRoutingModule,
     BsDropdownModule.forRoot(),
     BrowserModule
   ],
