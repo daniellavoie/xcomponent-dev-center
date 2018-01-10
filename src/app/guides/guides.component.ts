@@ -2,10 +2,10 @@ import { Component } from '@angular/core';
 import { Router } from '@angular/router';
 
 @Component({
-  selector: 'menu-component',
-  templateUrl: './menu.component.html'
+  selector: 'guides-component',
+  templateUrl: './guides.component.html'
 })
-export class MenuComponent {
+export class GuidesComponent {
     route: string;
     
     constructor(private router: Router) { }
